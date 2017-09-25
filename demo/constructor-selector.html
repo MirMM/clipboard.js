@@ -16,8 +16,9 @@
 
     <!-- 3. Instantiate clipboard by passing a string selector -->
     <script>
-    var clipboard = new Clipboard('.btn');
-
+    var clipboard = new Clipboard('<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+.btn');
+  
     clipboard.on('success', function(e) {
         console.log(e);
     });
